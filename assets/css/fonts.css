@@ -1,0 +1,89 @@
+
+/* HelveticaNeue */
+
+@font-face {
+    font-family: HelveBold;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-BoldCond.otf);
+  }
+  
+@font-face {
+    font-family: HelveMedCond;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-MediumCond.otf);
+  }
+
+@font-face {
+    font-family: HelveMedExt;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-MediumExt.otf);
+  }
+
+@font-face {
+    font-family: HelveReg;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-MediumCond.otf);
+  }
+
+@font-face {
+    font-family: HelveCond;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-Condensed.otf);
+  }
+  
+@font-face {
+    font-family: HelveExt;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-Extended.otf);
+  }
+
+@font-face {
+    font-family: HelveLightExt;
+    src: url(../fonts/HelveticaNeueLT/HelveticaNeueLT-LightExt.otf);
+  }
+  
+/* Helve-baru */
+  @font-face {
+    font-family: HelveRoman;
+    src: url(../fonts/Helve-baru/HelveticaNeueLTStd-Roman_1.otf);
+  }
+  
+  @font-face {
+    font-family: HelveMed;
+    src: url(../fonts/Helve-baru/HelveticaNeueLTStd-Md.otf);
+  }
+ 
+  @font-face {
+    font-family: HelveThin;
+    src: url(../fonts/Helve-baru/HelveticaNeueLTStd-Th.otf);
+  }
+
+  @font-face {
+    font-family: HelveLight;
+    src: url(../fonts/Helve-baru/HelveticaNeueLTStd-Lt.otf);
+  }
+  
+  /* Castle */
+  
+@font-face {
+    font-family: CastleReg;
+    src: url(../fonts/Castle/CASTLEN_0.TTF);
+  }
+
+  @font-face {
+    font-family: CastleBold;
+    src: url(../fonts/Castle/CastleT-Bold_0.ttf);
+    
+    /* Optimum */
+    
+  }@font-face {
+    font-family: OptimumReg;
+    src: url(../fonts/Optimum/optimum1.ttf);
+  }
+
+  @font-face {
+    font-family: OptimumBold;
+    src: url(../fonts/Optimum/optimum2.TTF);
+  }
+    
+
+
+    
+  /* div {
+    font-family: myFirstFont;
+  } */
+  /*Name the font-family and link the font file in the @font-face rule*/
