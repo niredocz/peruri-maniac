@@ -30,7 +30,7 @@
   line-clamp: 3;
   -webkit-box-orient: vertical;
   box-orient: vertical;
-  word-break: break-all;
+  word-break: keep-all;
 }
 
 .detail-description {
