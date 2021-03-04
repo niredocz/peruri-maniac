@@ -57,18 +57,23 @@
   background: white; */
 }
 
-#seribu-rupiah .card {
+.non-uang {
+  height: 12.5em !important;
+  object-fit: cover;
+}
+
+#kertas-rupiah .card {
   border-radius: 0px;
   margin-bottom: 2rem;
 }
 
-#seribu-rupiah .card .card-body {
+#kertas-rupiah .card .card-body {
   padding: 0;
 }
 
 /* Media Queries */
 @media (min-width: 1199px) {
-  #seribu-rupiah img {
+  #kertas-rupiah img {
     height: 100%;
     width: 100%;
     object-fit: cover;
