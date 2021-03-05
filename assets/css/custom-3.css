@@ -33,32 +33,9 @@
   word-break: keep-all;
 }
 
-.detail-description {
-  /* --max-lines: 3;
-  position: relative;
-  max-height: calc(var(--lh) * var(--max-lines));
-  overflow: hidden;
-  padding-right: 1rem; */
-}
-
-.detail-description::before {
-  /* position: absolute;
-  content: "...";
-  bottom: 0;
-  right: 0; */
-}
-
-.detail-description::after {
-  /* content: "";
-  position: absolute;
-  right: 0;
-  width: 1rem;
-  height: 1rem;
-  background: white; */
-}
-
 .non-uang {
-  height: 12.5em !important;
+  height: 14.5em !important;
+  width: 100%;
   object-fit: cover;
 }
 
@@ -94,5 +71,9 @@
 
   .pecahan-card .owl-carousel {
     width: 90vw !important;
+  }
+
+  .non-uang {
+    height: 10em !important;
   }
 }
