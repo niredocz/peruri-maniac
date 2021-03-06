@@ -17,6 +17,12 @@
   object-fit: cover;
 }
 
+.product-wrapper .product-info .digital-info {
+  height: 17em;
+  width: 100%;
+  object-fit: contain;
+}
+
 .product-wrapper p {
   font-size: 0.9rem;
 }
@@ -48,9 +54,15 @@
   padding: 0;
 }
 
+.digital-content {
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
 /* Media Queries */
 @media (min-width: 1199px) {
-  #kertas-rupiah img {
+  #kertas-rupiah img,
+  #digital-description img {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -61,6 +73,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+  .mt-md-1 {
+    margin-top: 1rem;
+  }
   .product-info .description {
     margin-top: 1em;
   }
@@ -75,5 +90,13 @@
 
   .non-uang {
     height: 10em !important;
+  }
+
+  #hero-and-body .breadcrumbs h2 {
+    font-size: 55px;
+  }
+
+  #page-body .product-wrapper {
+    margin-top: 0;
   }
 }
