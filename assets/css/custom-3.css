@@ -55,8 +55,16 @@
 }
 
 .digital-content {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding: 0 3em;
+}
+
+.digital-trust > :nth-child(2),
+.digital-trust > :nth-child(3) {
+  padding-left: 1.5em;
+}
+
+.trust-list > :nth-child(2) {
+  padding-left: 1em;
 }
 
 /* Media Queries */
@@ -98,5 +106,9 @@
 
   #page-body .product-wrapper {
     margin-top: 0;
+  }
+
+  .digital-content {
+    padding: 0 1em;
   }
 }

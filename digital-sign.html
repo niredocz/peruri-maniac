@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en-US">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" id="default-style-css" href="assets/files/css/style.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="fontawesome-style-css" href="assets/files/css/font-awesome.min.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" id="ionic-icons-style-css" href="assets/files/css/ionicons.css" type="text/css"
+        media="all" />
+    <link rel="stylesheet" id="isotope-style-css" href="assets/files/css/isotope.css" type="text/css" media="all" />
+    <!-- <link rel="stylesheet" id="owlcarousel-css" href="assets/files/css/owl.carousel.css" type="text/css" media="all" /> -->
+    <link rel="stylesheet" id="owlcarousel-css" href="assets/owlcarousel/assets/owl.theme.default.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="owlcarousel-css" href="assets/owlcarousel/assets/owl.carousel.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="lightcase-css" href="assets/files/css/lightcase.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-css" href="assets/files/css/mqueries.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-css" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-css" href="assets/css/custom.css" type="text/css" media="all" />
+    <link rel="stylesheet" id="responsive-css" href="assets/css/custom-3.css" type="text/css" media="all" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css'
+        integrity='sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w=='
+        crossorigin='anonymous' />
+    <link rel="shortcut icon" href="assets/images/custom/logo-sq-dark.png" />
+    <title>PERURI</title>
+</head>
+
+<body class="peruri-all">
+    <div id="page-loader" class="text-light show-logo">
+        <img src="assets/images/custom/peruri-sq.png" class="logo-fade-out" alt="logo" />
+        <div class="progress-loader"></div>
+    </div>
+
+    <div id="page-content">
+        <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light fixed-top my-nav-cust hide-mobile-nav">
+            <a class="navbar-brand" href="../index.html">
+                <img class="logo-nav-cust-bumn" src="assets/images/custom/bumn-light.png" alt="bumn-light" />
+                <img class="logo-nav-cust ml-4" src="assets/images/custom/logo-light.png" alt="logo-light" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse hide-mobile-imp" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto menu-navbar-utama">
+                    <li class="menu-utama-nav nav-item my-0 active">
+                        <a class="nav-link" href="#" data-hover-menu="beranda-menu">Beranda <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="menu-utama-nav nav-item dropdown mega-dropdown my-0">
+                        <a class="nav-link dropdown-toggle" href="" id="menu-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-hover-menu="tentang-kami-menu">
+                            Tentang Kami
+                        </a>
+                    </li>
+                    <li class="menu-utama-nav nav-item dropdown mega-dropdown my-0">
+                        <a class="nav-link dropdown-toggle" href="" id="menu-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-hover-menu="korporasi-menu">
+                            Korporasi
+                        </a>
+                    </li>
+                    <li class="menu-utama-nav nav-item dropdown mega-dropdown my-0">
+                        <a class="nav-link dropdown-toggle" href="" id="menu-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-hover-menu="produk-menu">
+                            Produk
+                        </a>
+                    </li>
+                    <li class="menu-utama-nav nav-item dropdown mega-dropdown my-0">
+                        <a class="nav-link dropdown-toggle" href="" id="menu-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-hover-menu="investor-menu">
+                            Hubungan Investor
+                        </a>
+                    </li>
+                    <li class="menu-utama-nav nav-item dropdown mega-dropdown my-0">
+                        <a class="nav-link dropdown-toggle" href="" id="menu-4" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false" data-hover-menu="pkbl-menu">
+                            PKBL
+                        </a>
+                    </li>
+                    <li class="menu-utama-nav nav-item my-0">
+                        <a class="nav-link" href="#" data-hover-menu="karir-menu">Karir</a>
+                    </li>
+                    <div class="megamenu-dropdown">
+                        <ul class="dropdown-menu mega-dropdown-menu mt-md-0 menu-float" id="style-dropdown"
+                            aria-labelledby="menu-4">
+                            <li class="row dropdown-row mx-0">
+                                <div class="slider"></div>
+                                <div class="col-5-cust m-0 px-0">
+                                    <div class="judul-drop-menu tentang-kami-menu" id="tentangMenu">
+                                        Tentang Kami
+                                    </div>
+                                    <!-- <hr class="hr-dropdown" /> -->
+
+                                    <ul class="dropdown-menu-child px-0">
+                                        <li class="submenunya">
+                                            <a class="dropdown-item isactive" data-hover="tentangMenu"
+                                                data-type="aktif-bro" href="#">
+                                                Profil Perusahaan
+                                            </a>
+                                            <ul class="submenu dropdown-menu-child-2">
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Sejarah Singkat</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Visi & Misi</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Core Values</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Dewan Pengawas
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Direksi
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Struktur Organisasi
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Peruri Group
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                PSrE
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Obyek Vital Nasional
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="tentangMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Sertifikasi
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-5-cust m-0 px-0">
+                                    <div class="judul-drop-menu korporasi-menu" id="korporasiMenu">Korporasi</div>
+                                    <!-- <hr class="hr-dropdown" /> -->
+                                    <ul class="dropdown-menu-child px-0">
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="korporasiMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Tata Kelola Perusahaan
+                                            </a>
+                                            <ul class="submenu dropdown-menu-child-2">
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Code of Conduct</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Code of Corporate Governance</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Internal Audit Charter</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Pakta Integritas</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Manajemen Risiko</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="korporasiMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Legal Repository
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="korporasiMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Whistleblowing System
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="korporasiMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Informasi
+                                            </a>
+                                            <ul class="submenu dropdown-menu-child-2">
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Berita Terkini</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Siaran Pers</a>
+                                                </li>
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Pengumuman</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="korporasiMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Keterbukaan Informasi Publik
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-5-cust m-0 px-0">
+                                    <div class="judul-drop-menu produk-menu" id="produkMenu">Produk</div>
+                                    <!-- <hr class="hr-dropdown" /> -->
+                                    <ul class="dropdown-menu-child px-0">
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="produkMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Uang Kertas & Uang Logam
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="produkMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Kertas Berharga Non Uang
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="produkMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Logam Non Uang
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="produkMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Digital Business Solution
+                                            </a>
+                                            <!-- <ul class="submenu dropdown-menu-child-2">
+                                  <li class="mt-0"><a class="dropdown-item" href=""> Legal Repository</a></li>
+                              </ul> -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-5-cust m-0 px-0">
+                                    <div class="judul-drop-menu investor-menu" id="investMenu">
+                                        Hubungan Investor
+                                    </div>
+                                    <!-- <hr class="hr-dropdown" /> -->
+                                    <ul class="dropdown-menu-child px-0">
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="investMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Laporan Tahunan
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="investMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Laporan Keberlanjutan
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="investMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Laporan Keuangan
+                                            </a>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="investMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Laporan PKBL
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-5-cust m-0 px-0">
+                                    <div class="judul-drop-menu pkbl-menu" id="pkblMenu">PKBL</div>
+                                    <!-- <hr class="hr-dropdown" /> -->
+                                    <ul class="dropdown-menu-child px-0">
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="pkblMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Program Kemitraan
+                                            </a>
+                                            <ul class="submenu dropdown-menu-child-2">
+                                                <li class="mt-0">
+                                                    <a class="dropdown-item" href=""> Pengajuan Pinjaman</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="submenunya">
+                                            <a class="dropdown-item" data-hover="pkblMenu" data-type="aktif-bro"
+                                                href="#">
+                                                Program Bina Lingkungan
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <nav id="navbar-top" class="navbar navbar-expand-lg navbar-light fixed-top my-nav-cust hide-pc-nav">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo-nav-cust-bumn" src="assets/images/custom/bumn-light.png" alt="Logonya" />
+                <img class="logo-nav-cust ml-4" src="assets/images/custom/logo-light.png" alt="Logonya" />
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse hide-pc-imp mt-2 pt-2 border-top mb-4" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active my-0">
+                        <a class="nav-link" href="#">Beranda <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item my-0 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Tentang Kami
+                        </a>
+                        <div class="dropdown-menu mobile-menu" aria-labelledby="navbarDropdown">
+                            <div class="judul-dropdown-item">Profil Perusahaan</div>
+                            <a class="dropdown-item" href="#">Sejarah Singkat</a>
+                            <a class="dropdown-item" href="#">Visi & Misi</a>
+                            <a class="dropdown-item" href="#">Core Values</a>
+                            <a class="dropdown-item-single" href="#">Dewan Pengawas</a>
+                            <a class="dropdown-item-single" href="#">Direksi</a>
+                            <a class="dropdown-item-single" href="#">Struktur Organisasi</a>
+                            <a class="dropdown-item-single" href="#">Peruri Group</a>
+                            <a class="dropdown-item-single" href="#">PSrE</a>
+                            <a class="dropdown-item-single" href="#">Obyek Vital Nasional</a>
+                            <a class="dropdown-item-single" href="#">Sertifikasi</a>
+                        </div>
+                    </li>
+                    <li class="nav-item my-0 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Korporasi
+                        </a>
+                        <div class="dropdown-menu mobile-menu" aria-labelledby="navbarDropdown">
+                            <div class="judul-dropdown-item">Tata Kelola Perusahaan</div>
+                            <a class="dropdown-item" href="#">Code of Conduct</a>
+                            <a class="dropdown-item" href="#">Code of Corporate Governance</a>
+                            <a class="dropdown-item" href="#">Internal Audit Charter</a>
+                            <a class="dropdown-item" href="#">Pakta Integritas</a>
+                            <a class="dropdown-item" href="#">Manajemen Risiko</a>
+                            <a class="dropdown-item-single" href="#">Legal Repository</a>
+                            <a class="dropdown-item-single" href="#">Whistleblowing System</a>
+                            <div class="judul-dropdown-item">Informasi</div>
+                            <a class="dropdown-item" href="#">Berita Terkini</a>
+                            <a class="dropdown-item" href="#">Siaran Pers</a>
+                            <a class="dropdown-item" href="#">Pengumuman</a>
+
+                            <a class="dropdown-item-single" href="#">Keterbukaan Informasi Publik</a>
+                        </div>
+                    </li>
+                    <li class="nav-item my-0 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Produk
+                        </a>
+                        <div class="dropdown-menu mobile-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item-single" href="#">Uang Kertas & Uang Logam</a>
+                            <a class="dropdown-item-single" href="#">Kertas Berharga Non Uang</a>
+                            <a class="dropdown-item-single" href="#">Logam Non Uang</a>
+                            <a class="dropdown-item-single" href="#">Digital Business Solution</a>
+                        </div>
+                    </li>
+                    <li class="nav-item my-0 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hubungan Investor
+                        </a>
+                        <div class="dropdown-menu mobile-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item-single" href="#">Laporan Tahunan</a>
+                            <a class="dropdown-item-single" href="#">Laporan Keberlanjutan</a>
+                            <a class="dropdown-item-single" href="#">Laporan Keuangan</a>
+                            <a class="dropdown-item-single" href="#">Laporan PKBL</a>
+                        </div>
+                    </li>
+                    <li class="nav-item my-0 dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            PKBL
+                            <!-- <i class="fa fa-chevron-right ml-auto"></i> -->
+                        </a>
+                        <div class="dropdown-menu mobile-menu" aria-labelledby="navbarDropdown">
+                            <div class="judul-dropdown-item">Program Kemitraan</div>
+                            <a class="dropdown-item" href="#">Pengajuan Pinjaman</a>
+                            <a class="dropdown-item-single" href="#">Program Bina Lingkungan</a>
+                        </div>
+                    </li>
+                    <li class="nav-item my-0">
+                        <a class="nav-link" href="#">Karir </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- HERO & BODY -->
+        <div id="hero-and-body">
+            <!-- HERO  -->
+
+            <!-- HERO -->
+
+            <!-- PAGEBODY -->
+            <div class="breadcrumbs overlay" style="background-image: url('assets/images/custom/update/berita-3.jpg')">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="bread-inner">
+                                <!-- Bread Menu -->
+                                <div class="bread-menu">
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Produk</a></li>
+                                        <li><a href="digital-solution.html">Digital Bussiness Solution</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Bread Title -->
+                                <div class="bread-title">
+                                    <h2>Peruri Sign</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section id="page-body">
+                <div class="d-dewan inner inner-content section--padding">
+                    <div class="container">
+                        <div class="row d-dewan-row">
+                            <div class="description" id="digital-description" data-aos="slide-up" data-aos-easing="ease" data-aos-duration="1500" data-aos-once="true">
+                                <div class="title-description">
+                                    <p class="text-justify text-muted mt-1 mb-5">Peruri Sign merupakan platform yang dimiliki Peruri untuk menjamin kerahasiaan data <em>(confidentiality)</em>, melindungi integritas isi dokumen <em>(data integrity)</em>, menjamin keaslian data <em>(authentication)</em> dan jaminan nirsangkal <em>(non-repudiation)</em> dari suatu dokumen elektronik sehingga dapat diketahui keabsahan dan keasliannya. Berikut merupakan jenis Peruri Sign, yaitu:</p>
+                                </div>
+                                <div class="digital-content mb-5">
+                                    <h4 class="font-weight-bold mb-4">Tanda Tangan Elektronik (Digital Signature)</h4>
+                                    <div class="digital-sign-content">
+                                        <!-- <img class="img-fluid" src="assets/images/produk/digital-solution/digital-sign-signature.jpg" alt="digital-sign-signature"> -->
+                                        <p class="text-justify"><em>Digital signature</em> merupakan tanda tangan yang terdiri atas informasi elektronik yang dilekatkan, terasosiasi atau terkait dengan informasi elektronik lainnya yang digunakan sebagai alat verifikasi dan autentikasi. Fitur sekuriti ini dapat dimanfaatkan sebagai sebuah bukti dari adanya identitas suatu pihak yang dapat menunjukkan subjek hukum pihak tersebut. <em>Digital signature</em> diimplementasikan pada sertifikat elektronik sehingga dokumen elektronik yang ditransaksikan dapat diketahui keabsahan dan keasliannya.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- PAGEBODY -->
+        </div>
+        <!-- HERO & BODY -->
+
+        <footer id="footer" class="foot-utama">
+            <!-- <div class="footer-inner wrapper"> -->
+            <div class="footer-inner container this-footer">
+                <div class="mx-0 px-0">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 px-md-3 px-3">
+                            <!-- <div class="f_widget company_widget pr_20 d-flex flex-column justify-content-md-around"> -->
+                            <div class="f_widget company_widget pr_20 mt-footnya">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/images/custom/bumn-light.png" class="w-cust-foot-bumn" alt="" />
+                                    <img src="assets/images/custom/logo-light.png" class="w-cust-foot" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-6 foot-sec2">
+                            <div class="widget-wrap">
+                                <h3 class="judul-foot">Alamat</h3>
+                                <hr class="hr-foot" />
+                                <p class="f_400 f_p f_size_15 mb-0 l_height34"></p>
+                                <div class="judul-foot-contact">Kantor Pusat:</div>
+                                <a href="javascript:void(0)" class="f_400">Jl. Palatehan No. 4, Blok K-V, Kebayoran
+                                    Baru, Jakarta 12160</a>
+                                <p class="f_400 f_p f_size_15 mb-0 l_height34"></p>
+                                <div class="judul-foot-contact">Kawasan Produksi:</div>
+                                <a href="javascript:void(0)" class="f_400">Desa Parung Mulya, Kec. Ciampel, Karawang,
+                                    Jawa Barat 41361</a>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 foot-sec3">
+                            <div class="f_widget social_widget">
+                                <h3 class="judul-foot">Hubungi Kami</h3>
+                                <hr class="hr-foot" />
+                                <div class="widget-wrap mt-0">
+                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"></p>
+                                    <div class="judul-foot-contact">Email:</div>
+                                    <a href="mailto:emailcontoh@gmail.com" class="f_400">emailcontoh@gmail.com</a>
+                                    <p class="f_400 f_p f_size_15 mb-0 l_height34"></p>
+                                    <div class="judul-foot-contact">Telepon:</div>
+                                    <a href="tel:948256347968" class="f_400">+948 256 347 968</a>
+                                </div>
+                                <ul class="socialmedia-widget mt-md-2 mb-md-3">
+                                    <!-- <li class="facebook"><a href="#"></a></li>
+                                    <li class="twitter"><a href="#"></a></li>
+                                    <li class="instagram"><a href="#"></a></li> -->
+
+                                    <li class="li-socmed">
+                                        <a href="#"><img src="assets/images/custom/sosmed-peruri/fb.png"
+                                                class="img-socmed-cust" /></a>
+                                    </li>
+                                    <li class="li-socmed">
+                                        <a href="#"><img src="assets/images/custom/sosmed-peruri/tw.png"
+                                                class="img-socmed-cust" /></a>
+                                    </li>
+                                    <li class="li-socmed">
+                                        <a href="#"><img src="assets/images/custom/sosmed-peruri/ig.png"
+                                                class="img-socmed-cust" /></a>
+                                    </li>
+                                    <li class="li-socmed">
+                                        <a href="#"><img src="assets/images/custom/sosmed-peruri/yt.png"
+                                                class="img-socmed-cust" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-12">
+                            <div class="text-center d-md-flex d-block wrap-iso shadow-cust">
+                                <img src="assets/images/custom/iso/Sertifikasi-56f0e9d186b9a.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-56f394022084e.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-56f0b9e2cd482.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-56f393e0217a5.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-57fc9a52364ad.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-58ddb4d8d23cc.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-59af4bb9e2f91.jpg" class="iso-icon" alt="">
+                                <img src="assets/images/custom/iso/Sertifikasi-5dedeb578b4ee.jpg" class="iso-icon" alt="">
+                            </div>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <hr class="hr-foot-bottom" />
+                        </div>
+                        <!-- <div class="col-lg-12 col-md-6 foot-sec2"> -->
+                        <div class="col-lg-12 col-md-6">
+                            <div class="foot-bottom text-md-left text-center hide-mobile">
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                Perusahaan Umum Percetakan Uang Republik Indonesia
+                            </div>
+                            <div class="foot-bottom text-md-left text-center hide-pc">
+                                Copyright &copy;
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                <br />Perusahaan Umum Percetakan Uang <br />Republik Indonesia
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/files/js/jquery-3.5.1.min.js"></script>
+    <script src="assets/files/js/jquery-migrate-3.3.2.min.js"></script>
+    <script type="text/javascript" src="assets/files/js/plugins.js"></script>
+    <script type="text/javascript" src="assets/files/js/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript" src="assets/files/js/jquery.isotope.min.js"></script>
+    <!-- <script type="text/javascript" src="assets/files/js/jquery.owl.carousel.min.js"></script> -->
+    <!-- <script src="assets/owlcarousel/owl.carousel.min.js"></script> -->
+    <script type="text/javascript" src="assets/files/js/jquery.sticky-kit.min.js"></script>
+    <script type="text/javascript" src="assets/files/js/jquery.min.phatvideobg.js"></script>
+    <script type="text/javascript" src="assets/files/js/jquery.lightcase.min.js"></script>
+    <script 
+        src='https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js'
+        integrity='sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw=='
+        crossorigin='anonymous'>
+    </script>
+    <script type="text/javascript" src="assets/files/js/script.js"></script>
+    <script src="assets/files/js/app.js"></script>
+</body>
+</html>
